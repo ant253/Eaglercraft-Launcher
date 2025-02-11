@@ -1,0 +1,78 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.launcher-container {
+    background-color: #1e3a8a; /* Blue background */
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border: 5px solid transparent;
+    animation: rainbow-border 6s ease-in-out infinite; /* Adjusted timing */
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.client-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.client-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.client-button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.05);
+}
+
+/* Rainbow border animation */
+@keyframes rainbow-border {
+    0% { border-color: red; }
+    20% { border-color: orange; }
+    40% { border-color: yellow; }
+    60% { border-color: lime; }
+    80% { border-color: violet; }
+    100% { border-color: red; } /* Ensures the last color smoothly transitions to the first */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .launcher-container {
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .client-button {
+        font-size: 1.2em;
+        padding: 15px;
+    }
+}

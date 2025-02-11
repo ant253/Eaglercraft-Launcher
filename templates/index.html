@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglercraft Launcher</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="launcher-container">
+        <h1>Eaglercraft Launcher</h1>
+        <div class="client-list">
+            {% for client in clients %}
+                <a href="/launch/{{ client.path }}" class="client-button">{{ client.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
