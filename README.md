@@ -1,6 +1,6 @@
 # Eaglercraft Launcher
 
-Eaglercraft Launcher is a modern and easy-to-use launcher for Eaglercraft, a Minecraft client that runs in the browser. This launcher has a sleek, rounded UI powered by Flask, making it simple to access various versions of Eaglercraft. The launcher currently supports multiple clients, including:
+Eaglercraft Launcher is a modern and easy-to-use launcher for Eaglercraft, a Eaglercraft clients that run in the browser. This launcher has a modern, rounded UI with a flask backend, making it simple to access various versions of Eaglercraft. The launcher currently supports multiple clients, including:
 
 - **Resent Client**
 - **Astra Client**
@@ -8,7 +8,6 @@ Eaglercraft Launcher is a modern and easy-to-use launcher for Eaglercraft, a Min
 - **Eaglercraft 1.5.2**
 - **Eaglercraft Mobile**
 
-The application provides a seamless experience for users to launch their favorite Eaglercraft versions directly from a browser.
 
 ## Features
 
