@@ -20,7 +20,7 @@ The application provides a seamless experience for users to launch their favorit
 ## Demo
 
 You can view the live demo of the self-hosted Eaglercraft Launcher here:  
-[Eaglercraft Launcher - Demo](https://eaglermaths.uk.to/)
+[Eaglercraft Launcher - Demo](https://eaglermaths.uk.to/) (https://eaglermaths.uk.to/)
 
 ## Setup Instructions
 
