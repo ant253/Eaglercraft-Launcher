@@ -21,8 +21,6 @@ Eaglercraft Launcher is a modern and easy-to-use launcher for Eaglercraft, a Eag
 You can view the live demo of the self-hosted Eaglercraft Launcher here:  
 [Eaglercraft Launcher - Demo](https://eaglermaths.uk.to/) 
 
-(https://eaglermaths.uk.to/)
-
 ## Setup Instructions
 
 ### Self-Hosting via GitHub Codespaces
